@@ -4,6 +4,8 @@ public abstract class Item {
     private String description;
     private double weight;
 
+    public Item(){}
+
     public Item(int id, String description, double weight, String name) {
         this.id = id;
         this.description = description;
